@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.logo img{
+    width: 4%;
+    z-index: 2;
+}
+
+.main-footprint{
+    width: 50%;
+    margin: auto;
+}
+
+.builtInDiet{
+    background-color: #f60c86;
+    padding: 1rem;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+}
+
+.builtInDiet h1{
+    font-family: 'Prompt', Young-Serif;
+    font-size: 3.8rem;
+    color: hsl(230, 100%, 95%);
+    animation: lights 5s 750ms linear infinite;
+}
+
+.builtInContent{
+    background-color:hsl(230, 100%, 95%);
+    padding: 1rem;
+    text-align: left;
+    border-radius: 10%;
+    box-shadow: 1px 2px  #f60c86;
+    overflow: hidden;
+    width: 700px;
+    margin: auto;
+    display: none;
+}
+
+.indicator{
+    display: flex;
+    justify-content: space-between;
+    margin:15px ;
+}
+
+.indicator i{
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.detail-content{
+    align-items: center;
+    text-align: left;
+}
+
+.builtInSlider{
+    display: flex;
+    margin-top: 1rem;
+    margin-left:1.8rem ;
+    width: 7400px;
+    transition: 0.5s;
+}
+
+.slide-col{
+    width: 870px;
+    height: 660px;
+}
+
+
+@keyframes lights {
+    0% {
+      color: hsl(230, 40%, 80%);
+      text-shadow:
+        0 0 1em hsla(255, 100%, 50%, 0.2),
+        0 0 0.125em hsla(240, 100%, 60%, 0.3),
+        -1em -0.125em 0.5em hsla(260, 100%, 60%, 0),
+        1em 0.125em 0.5em hsla(210, 100%, 60%, 0);
+    }
+    
+    30% { 
+      color: hsl(230, 80%, 90%);
+      text-shadow:
+        0 0 1em hsla(255, 100%, 50%, 0.5),
+        0 0 0.125em hsla(240, 100%, 60%, 0.5),
+        -0.5em -0.125em 0.25em hsla(260, 100%, 60%, 0.2),
+        0.5em 0.125em 0.25em hsla(210, 100%, 60%, 0.4);
+    }
+    
+    40% { 
+      color: hsl(230, 100%, 95%);
+      text-shadow:
+        0 0 1em hsla(255, 100%, 50%, 0.5),
+        0 0 0.125em hsla(240, 100%, 90%, 0.5),
+        -0.25em -0.125em 0.125em hsla(260, 100%, 60%, 0.2),
+        0.25em 0.125em 0.125em hsla(210, 100%, 60%, 0.4);
+    }
+    
+    70% {
+      color: hsl(230, 80%, 90%);
+      text-shadow:
+        0 0 1em hsla(235, 100%, 50%, 0.5),
+        0 0 0.125em hsla(240, 100%, 60%, 0.5),
+        0.5em -0.125em 0.25em hsla(260, 100%, 60%, 0.2),
+        -0.5em 0.125em 0.25em hsla(210, 100%, 60%, 0.4);
+    }
+    
+    100% {
+        color: hsl(230, 40%, 80%);
+        text-shadow:
+        0 0 1em hsla(235, 100%, 50%, 0.2),
+        0 0 0.125em hsla(240, 100%, 60%, 0.3),
+        1em -0.125em 0.5em hsla(260, 100%, 60%, 0),
+        -1em 0.125em 0.5em hsla(210, 100%, 60%, 0);
+    }
+    
+}
+
+
+
+
